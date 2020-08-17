@@ -12,7 +12,10 @@ class Boot {
     this.constants = constants;
     this.appRegisterRoute = this.appRegisterRoute.bind(this);
     this.appCreateRouteAction = this.appCreateRouteAction.bind(this);
-    this.redis = redis.createClient({ host: 'redis-server', port: process.env.REDIS_PORT || 6379 });
+    this.redis = redis.createClient({
+      host: 'redis',
+      port: process.env.REDIS_PORT || 6379,
+    });
   }
 
   appRegisterRoute(uri, httpMethod, boundAction) {
