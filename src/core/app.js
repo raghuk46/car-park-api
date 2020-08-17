@@ -15,7 +15,7 @@ class App extends Boot {
     this.express = express();
     this.port = process.env.PORT || 5000;
     this.environment = process.env.NODE_ENV || 'production';
-    this.host = 'localhost';
+    this.host = '0.0.0.0';
     this.expressRouter = express.Router();
     this.logger = logger;
   }
