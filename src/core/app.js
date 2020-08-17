@@ -13,7 +13,7 @@ class App extends Boot {
   constructor(router, repository) {
     super(router, repository);
     this.express = express();
-    this.port = process.env.PORT || 3000;
+    this.port = process.env.PORT || 5000;
     this.environment = process.env.NODE_ENV || 'production';
     this.host = 'localhost';
     this.expressRouter = express.Router();

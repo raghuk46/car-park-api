@@ -45,7 +45,7 @@ items:
             io.kompose.service: api
         spec:
           containers:
-            - image: car-park-api
+            - image: car-park-api:latest
               imagePullPolicy: Never
               name: api
               ports:

@@ -10,6 +10,13 @@ class BaseController {
     this.logger = logger;
     this.repository = repository;
     this.redis = redis;
+    this.validationErrorOptions = {
+      errors: {
+        wrap: {
+          label: '',
+        },
+      },
+    };
   }
 
   error(err) {

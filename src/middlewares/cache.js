@@ -2,10 +2,7 @@ import redis from 'redis';
 import { isNull } from 'lodash';
 
 module.exports = (key) => (req, res, next) => {
-  const client = redis.createClient({
-    host: 'redis',
-    port: process.env.REDIS_PORT || 6379,
-  });
+  const client = redis.createClient(process.env.REDIS_URL);
 
   if (!isNull(key)) {
     client.get(key, (err, data) => {

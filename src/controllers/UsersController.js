@@ -4,7 +4,7 @@ import { registrationSchema, authSchema } from 'helpers/validations';
 class UsersController extends BaseController {
   async register() {
     try {
-      await registrationSchema.validateAsync(this.body);
+      await registrationSchema.validateAsync(this.body, this.validationErrorOptions);
 
       const response = await this.repository.user.createUser(this.body);
 
@@ -16,12 +16,11 @@ class UsersController extends BaseController {
 
   async authenticate() {
     try {
-      await authSchema.validateAsync(this.body);
+      await authSchema.validateAsync(this.body, this.validationErrorOptions);
       const response = await this.repository.user.authenticate(this.body);
 
       this.ok(response);
     } catch (err) {
-      console.log(err);
       this.errorResponse(422, 'Unprocessible Entity', err.details);
     }
   }
