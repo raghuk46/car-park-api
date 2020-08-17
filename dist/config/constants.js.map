@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/config/constants.js"],"names":["constants","APP_VERSION"],"mappings":";;;;;;AAAO,MAAMA,SAAS,GAAG;AACvBC,EAAAA,WAAW,EAAE;AADU,CAAlB","sourcesContent":["export const constants = {\n  APP_VERSION: '1.0.0',\n};\n"],"file":"constants.js"}

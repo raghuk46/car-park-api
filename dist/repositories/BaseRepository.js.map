@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/repositories/BaseRepository.js"],"names":["BaseRepository","Error"],"mappings":";;;;;;;;;;;;;IAAMA,c;;;;;;;8BACM;AACR,YAAM,IAAIC,KAAJ,CAAU,iBAAV,CAAN;AACD;;;;;;eAGYD,c","sourcesContent":["class BaseRepository {\n  getById() {\n    throw new Error('Not Implemented');\n  }\n}\n\nexport default BaseRepository;\n"],"file":"BaseRepository.js"}
