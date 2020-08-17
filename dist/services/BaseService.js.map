@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/services/BaseService.js"],"names":["BaseService"],"mappings":";;;;;;;;;IAAMA,W;;;;eAESA,W","sourcesContent":["class BaseService {}\n\nexport default BaseService;\n"],"file":"BaseService.js"}

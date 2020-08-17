@@ -1,0 +1,11 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+      - '80:3000'
+    depends_on:
+      - redis-server
+    restart: always
+  redis-server:
+    image: redis

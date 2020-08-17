@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/services/UserService.js"],"names":["UserService"],"mappings":";;AAAA;;;;;;IAEMA,W","sourcesContent":["import BaseService from './BaseService';\n\nclass UserService {}\n"],"file":"UserService.js"}
