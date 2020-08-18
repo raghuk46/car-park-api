@@ -38,3 +38,9 @@ http://localhost:5000/updateSlots - POST [Set total parking slots]
 #[[ Front End Video Demo]](https://drive.google.com/file/d/1oaELRVrBGYC5ad3cIYH2OZOYSrnLy6v5/view?usp=sharing)
 
 ####Note: i have`nt Done much on the front end only completed the registration login and show 'Available Slots' 'Total Slots' and logout.
+
+#TestCase
+
+```
+yarn test
+```
