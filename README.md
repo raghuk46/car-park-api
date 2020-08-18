@@ -4,6 +4,9 @@
 docker-compose up
 GOTO: http://localhost:5000
 
+To test directly on cloud please use the below url
+http://159.65.10.139/  instead of local docker instance
+
 ```
 
 # List of endpoinst
