@@ -6,7 +6,7 @@ GOTO: http://localhost:5000
 
 ```
 
-#List of endpoinst
+# List of endpoinst
 
 ```
 http://localhost:5000/register - POST [Registration]
@@ -33,13 +33,13 @@ http://localhost:5000/updateSlots - POST [Set total parking slots]
 5. created a kubemanifests.yaml to run the whole setup in kubernetes - haven`t tested it completely. let me know if needed i can run and record that too
 ```
 
-#[[Api Demo Video Link]](https://drive.google.com/file/d/1d0b9ACZsKQ8UIqHXITwP_1Ngxdnrl43K/view?usp=sharing)
+# [[Api Demo Video Link]](https://drive.google.com/file/d/1d0b9ACZsKQ8UIqHXITwP_1Ngxdnrl43K/view?usp=sharing)
 
-#[[ Front End Video Demo]](https://drive.google.com/file/d/1oaELRVrBGYC5ad3cIYH2OZOYSrnLy6v5/view?usp=sharing)
+# [[ Front End Video Demo]](https://drive.google.com/file/d/1oaELRVrBGYC5ad3cIYH2OZOYSrnLy6v5/view?usp=sharing)
 
-####Note: i have`nt Done much on the front end only completed the registration login and show 'Available Slots' 'Total Slots' and logout.
+#### Note: i have`nt Done much on the front end only completed the registration login and show 'Available Slots' 'Total Slots' and logout.
 
-#TestCase
+# TestCase
 
 ```
 yarn test
