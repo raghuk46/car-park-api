@@ -24,3 +24,13 @@ http://localhost:5000/updateSlots - POST [Set total parking slots]
 ```
 
 [SampleResponse](./EndpoinResponses.md)
+
+```
+1. Database Use: Firbase
+2. Used Redis for caching totalSlots and available slots endpoints
+3. Did Basic Validation where ever reqired
+4. End-to-end flow video is recorded please it from below link
+5. created a kubemanifests.yaml to run the whole setup in kubernetes - haven`t tested it completely. let me know if needed i can run and record that too
+```
+
+[[Api Demo Video Link]](https://drive.google.com/file/d/1d0b9ACZsKQ8UIqHXITwP_1Ngxdnrl43K/view?usp=sharing)
